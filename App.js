@@ -23,8 +23,8 @@ const navigator = createStackNavigator(
       headerRight: (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center',paddingRight:10 }}>
              <Image style={{width: 35, height:35}} source={require('./assets/ex.png')}/>
-      </View>
-    ),
+        </View>
+      ),
       headerTitleStyle: {
         fontSize: 18,
       },
